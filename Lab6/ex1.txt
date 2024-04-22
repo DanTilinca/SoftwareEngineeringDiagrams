@@ -1,0 +1,5 @@
+Aceasta diagrama descrie patru clase interconectate ce reprezinta un sistem pentru gestionarea unei facultati.
+Clasa Student contine informatii personale si academice, iar clasa Profesor detalii profesionale. Clasa Seminar gestioneaza inregistrarile studentilor si interactiunile lor, iar clasa Inscriere tine evidenta notelor si calculeaza medii. 
+Relatiile dintre clase arata ca un student se poate inscrie la mai multe seminarii si ca un seminar poate exista fara profesor, sugerand flexibilitate in atribuirea instructorilor. Multiplicitatea indica posibilitatea ca seminariile sa aiba un numar variabil de studenti si profesori asociati. 
+Toate atributele acestor clase sunt private.
+Un student poate face mai multe inscrieri. O inscriere are legatura cu un singur student. Unul, niciunul sau mai multi elevi se pot inscrie la niciunul, unul sau mai multe semnarii.
